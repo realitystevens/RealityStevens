@@ -1,0 +1,22 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+h1 {
+    font-family: 'Sora', 'Inter', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 35px;
+}
+
+.details {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+a {
+    color: #005af7;
+    text-decoration: none;
+}
