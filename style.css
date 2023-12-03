@@ -3,20 +3,113 @@
     padding: 0px;
 }
 
-
-h1 {
-    font-family: 'Sora', 'Inter', sans-serif;
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 35px;
-}
-
-.details {
-    text-align: center;
+.wrapper {
+    padding: 65px 40px;
     font-family: 'Inter', sans-serif;
 }
 
 a {
     color: #005af7;
     text-decoration: none;
+}
+
+a:hover {
+    font-weight: 500;
+}
+
+p {
+    font-size: 17px;
+}
+
+.blue_color {
+    color: #005af7;
+}
+
+.realitystevens {
+    font-family: 'Sora', 'Inter', sans-serif;
+    font-size: 40px;
+}
+
+.main_write {
+    margin: 25px 0px 40px 0px;
+    line-height: 1.35;
+}
+
+.quicklinks {
+    margin-bottom: 15px;
+    text-decoration: underline;
+    font-size: 18.5px;
+}
+
+.line_hr {
+    margin: 50px 0px 40px 0px;
+    opacity: 40%;
+}
+
+.sora {
+    font-family: 'Sora', 'Inter', sans-serif;
+    font-weight: 600;
+}
+
+.url_name {
+    margin: 10px 0px 10px 0px;
+}
+
+
+@media screen and (min-width: 500px) {
+
+    p {
+        font-size: 18px;
+    }
+
+    .realitystevens {
+        font-size: 45px;
+    }
+
+    .main_write {
+        margin: 35px 0px 50px 0px;
+        line-height: 1.5;
+        font-size: 19px;
+    }
+
+    .quicklinks {
+        margin-bottom: 30px;
+        font-size: 20px;
+    }
+
+    .url_name {
+        margin: 12px 0px 12px 0px;
+    }
+    
+}
+
+@media screen and (min-width: 700px) {
+
+    p {
+        font-size: 19px;
+    }
+    
+    .wrapper {
+        padding: 75px 55px;
+        max-width: 600px;
+        margin: 0px auto 0px 5%;
+    }
+
+    .main_write {
+        font-size: 20px;
+    }
+
+    .quicklinks {
+        margin-bottom: 40px;
+        font-size: 22px;
+    }
+}
+
+@media screen and (min-width: 700px) {
+
+    .wrapper {
+        padding: 95px 55px;
+        max-width: 605px;
+        margin: 0px auto 0px 10%;
+    }
 }
