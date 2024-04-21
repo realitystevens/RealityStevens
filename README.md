@@ -1,3 +1,3 @@
-### realitystevens.me home page
+## Reality Stevens
 
-View [here](https://realitystevens.me/).
+[realitystevens.me](https://realitystevens.me/)
