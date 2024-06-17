@@ -4,7 +4,16 @@
 }
 
 :root {
+    --lightblue1: #005eff17;
+    --lightblue2: #015dfd3c;
     --blue: #1266f8;
+    --darkblue: #000299;
+    --black: #1a1a1a;
+}
+
+p {
+    font-size: 1.05rem;
+    line-height: 1.4;
 }
 
 a {
@@ -16,89 +25,29 @@ a:hover {
     font-weight: 500;
 }
 
-.blue_color {
-    color: var(--blue)
+
+
+
+@media screen and (min-width: 500px) {
+
+    p {
+        font-size: 1.12rem;
+    }    
 }
 
 
-/* Inter Fonts */
-.inter-400 {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-variation-settings:
-    "slnt" 0;
-}
+@media screen and (min-width: 700px) {
 
-.inter-500 {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
-  font-variation-settings:
-    "slnt" 0;
-}
-
-.inter-600 {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-style: normal;
-  font-variation-settings:
-    "slnt" 0;
-}
-
-.inter-700 {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
-  font-variation-settings:
-    "slnt" 0;
-}
-
-.inter-800 {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 800;
-  font-style: normal;
-  font-variation-settings:
-    "slnt" 0;
+    p {
+        font-size: 1.15rem;
+    }
 }
 
 
-/* Sora Fonts */
-.sora-400 {
-  font-family: "Sora", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-}
+@media screen and (min-width: 900px) {
 
-.sora-500 {
-  font-family: "Sora", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
-}
+    p {
+        font-size: 1.17rem;
+    }
 
-.sora-600 {
-  font-family: "Sora", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-style: normal;
-}
-.sora-700 {
-  font-family: "Sora", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.sora-800 {
-  font-family: "Sora", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 800;
-  font-style: normal;
 }

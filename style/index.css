@@ -1,6 +1,7 @@
 .wrapper {
     padding: 65px 40px;
     font-family: 'Inter', sans-serif;
+    color: var(--black);
 }
 
 .hding_one {
@@ -12,15 +13,60 @@
     margin: 24px 0px;
 }
 
-.text {
-    font-size: 1.08rem;
-    line-height: 1.4;
+.hding_three {
+    font-size: 17px;
+}
+
+.s_text {
+    padding: 0px 0px 0px 20px;
+}
+
+.stack_content {
+    padding: 30px 0px 15px 0px;
+
+}
+
+.stack_portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    margin: 20px 0px 25px 0px;
+    
+}
+
+.stack_outline {
+    background-color: var(--lightblue1);
+    margin: 0px 10px 10px 0px;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: .8em;
+    border: 1px solid var(--lightblue2);
+    color: var(--blue);
+}
+
+.stack_outline_special {
+    background-color: var(--blue) !important;
+    color: #fff !important;
+    border: 1px solid var(--darkblue) !important;
+}
+
+.text_two {
+    display: grid;
+    gap: 10px;
+}
+
+.text_two_p {
+    font-size: calc(100% - 0.1%);
+}
+
+.text_two_hr {
+    opacity: 20%;
 }
 
 .icons_content {
     display: flex;
     justify-content: space-between;
-    margin: 30px auto 30px 0px;
+    margin: 50px auto 30px 0px;
     max-width: 250px;
 }
 
@@ -30,6 +76,8 @@
     padding: 8px;
     border-radius: 10px;
 }
+
+
 
 
 @media screen and (min-width: 500px) {
@@ -44,13 +92,11 @@
 
     .hding_two {
         font-size: 26px;
-    }
-
-    .text {
-        font-size: 1.15rem;
-    }
-
+    }  
     
+    .text_two_p {
+        font-size: calc(100% - 0.1%);
+    }
 }
 
 @media screen and (min-width: 700px) {
@@ -68,8 +114,8 @@
         font-size: 28px;
     }
 
-    .text {
-        font-size: 1.18rem;
+    .text_two_p {
+        font-size: calc(100% - 0.1%);
     }
 
     .icons_content {
@@ -89,7 +135,7 @@
 @media screen and (min-width: 900px) {
 
     .wrapper {
-        max-width: 500px;
+        max-width: 550px;
         margin: 0px auto 0px 5%;
     }
 
@@ -101,8 +147,7 @@
         font-size: 28px;
     }
 
-    .text {
-        font-size: 1.19rem;
+    .text_two_p {
+        font-size: calc(100% - 0.1%);
     }
-
 }
